@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiTerminal, DiVim, DiZend } from 'react-icons/di';
+import { DiCode, DiFirebase, DiReact, DiTerminal, DiVim, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainerColumn, ListContainerRow, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -59,12 +59,24 @@ const Technologies = () =>  (
 
       <ListItem>
         <picture>
-          <DiTerminal size="3rem" />
+          <DiCode size="3rem" />
         </picture>
         <ListContainerColumn>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             C++, C#, Python, Java, SQL, HTML, CSS, JavaScript
+          </ListParagraph>
+        </ListContainerColumn>
+      </ListItem>
+
+      <ListItem>
+        <picture>
+          <DiTerminal size="3rem" />
+        </picture>
+        <ListContainerColumn>
+          <ListTitle>Software</ListTitle>
+          <ListParagraph>
+            Visual Studio, Visual Studio Code, Postman, Data Studio (DB2), Azure Suite, AWS
           </ListParagraph>
         </ListContainerColumn>
       </ListItem>
