@@ -106,7 +106,7 @@ export const Slogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  	align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;

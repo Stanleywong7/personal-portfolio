@@ -21,9 +21,6 @@ const Footer = () => {
       </LinkList>
       
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://www.linkedin.com/in/stanleywong7/">
             <AiFillGithub size="3rem" />
