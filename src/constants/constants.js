@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2012, text: 'Started my IT journey at the Chinese-American Planning Council.', },
+  { year: 2013, text: 'CrEST Engineering Program Instructor at NYU Polytechnic School of Engineering.', },
+  { year: 2017, text: 'First SWE Internship at MindWeaver LLC.', },
+  { year: 2018, text: 'First SWE position at MindWeaver LLC.', },
+  { year: 2020, text: 'QA Engineer at Real-Time Technology Solutions, Inc.', },
+  { year: 2021, text: 'Senior QA Engineer at Con Edison', },
 ];
