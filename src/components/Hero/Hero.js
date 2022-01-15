@@ -11,6 +11,7 @@ const Hero = (props) => (
         <SectionTitle main center>
           Hi, my name is <br />
           Stanley Wong <br />
+          <br />
           Let's build and automate the world together.
         </SectionTitle>
         <SectionText>
