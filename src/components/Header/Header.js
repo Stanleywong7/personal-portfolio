@@ -9,14 +9,14 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        {/* <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-        </a> */}
-        <LogoLink><img src="/images/logo.svg" alt="logo" height={16} width={16} /></LogoLink>
+        <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px' }}>
+          <DiCssdeck size="5rem" /> <Span></Span>
+        </a>
+        {/* <LogoLink><img src="/images/logo.svg" alt="logo" height={25} width={25} /></LogoLink> */}
       </Link>
     </Div1>
 
-    <Div2>
+    <Div3 class="topnav">
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -32,18 +32,6 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
-    </Div2>
-
-    <Div3>
-      <SocialIcons href="https://github.com/stanleywong7">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/stanleywong7/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
     </Div3>
   </Container>
 );
